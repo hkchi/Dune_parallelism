@@ -18,7 +18,7 @@ my.inversion <- read.table("inv_all_summary_betai_reg.out"), h=T)
 names(my.snp) <- c("CHR", "POS")
 my.snp$CHR <- factor(as.numeric(sub("Ha412HOChr","", my.snp$CHR)))
 my.snp$POS <- my.snp$POS/(10^6)
-my.region <- my.inv
+my.region <- my.inv_info
 my.region$chr <- sub("Ha412HOChr","", my.region$chr)
 my.region$chr <- factor(as.numeric(my.region$chr))
 my.region$start <- my.region$start/(10^6)
