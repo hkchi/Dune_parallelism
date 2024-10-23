@@ -1,0 +1,3 @@
+((GSD_dune,GSD_nondune),(MON_dune,MON_nondune));
+((GSD_dune,MON_dune),(GSD_nondune,MON_nondune));
+((GSD_dune,MON_nondune),(GSD_nondune,MON_dune));
